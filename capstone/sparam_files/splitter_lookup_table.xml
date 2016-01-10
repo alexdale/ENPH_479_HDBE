@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lumerical_lookup_table version="1.0" name = "S_parameter_table">
+<association>
+    <design>
+        <value name="heigth" type="double">2.1e-07</value>
+        <value name="width" type="double">4.8e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =210 width=480.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.2e-07</value>
+        <value name="width" type="double">4.8e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =220 width=480.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.3e-07</value>
+        <value name="width" type="double">4.8e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =230 width=480.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.1e-07</value>
+        <value name="width" type="double">5e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =210 width=500.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.2e-07</value>
+        <value name="width" type="double">5e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =220 width=500.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.3e-07</value>
+        <value name="width" type="double">5e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =230 width=500.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.1e-07</value>
+        <value name="width" type="double">5.2e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =210 width=520.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.2e-07</value>
+        <value name="width" type="double">5.2e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =220 width=520.sparam</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="heigth" type="double">2.3e-07</value>
+        <value name="width" type="double">5.2e-07</value>
+    </design>
+    <extracted>
+        <value name="S_parameter_original_file" type="string">Thickness =230 width=520.sparam</value>
+    </extracted>
+</association>

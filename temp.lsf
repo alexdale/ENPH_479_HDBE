@@ -1,0 +1,24 @@
+switchtolayout;
+deleteall;
+importnetlist("8x8_(without_waveguides).spi");
+select("HDBE::S3");
+set("control", 0);
+run;
+results = getresult("ONA_1");
+if (findstring(results, "input 1")!=-1) {
+  t1 = getresult("ONA_1", "input 1/mode 1/gain");}
+if (findstring(results, "input 2")!=-1) {
+  t2 = getresult("ONA_1", "input 2/mode 1/gain");}
+if (findstring(results, "input 3")!=-1) {
+  t3 = getresult("ONA_1", "input 3/mode 1/gain");}
+if (findstring(results, "input 4")!=-1) {
+  t4 = getresult("ONA_1", "input 4/mode 1/gain");}
+if (findstring(results, "input 5")!=-1) {
+  t5 = getresult("ONA_1", "input 5/mode 1/gain");}
+if (findstring(results, "input 6")!=-1) {
+  t6 = getresult("ONA_1", "input 6/mode 1/gain");}
+if (findstring(results, "input 7")!=-1) {
+  t7 = getresult("ONA_1", "input 7/mode 1/gain");}
+if (findstring(results, "input 8")!=-1) {
+  t8 = getresult("ONA_1", "input 8/mode 1/gain");}
+matlabsave("8x8_(without_waveguides)_best");
